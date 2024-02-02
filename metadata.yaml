@@ -1,5 +1,5 @@
 homepage: "https://www.tangoomedia.com/"
 documentation: "https://cdn.tangoomedia.com/Tangoo_UserManual/tangoo-and-google-tag-manager.pdf"
 versions:
-  - sha: 5c8ce2e36918823abbfc0228c8b0efff98d1818d
-    changeNotes: Initial commit
+  - sha: 4bc9bca51435c5fd51ee78f0a3b02d752b9e0dc2
+    changeNotes: Initial Release
