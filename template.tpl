@@ -397,40 +397,37 @@ var accountId = '0001';
     accountId = data.tokenId;
   }
 
-var datapartner = "data_0001" ;
+var datapartner = "rtgsettings" ;
 
 // Initialize  array
-let dataarray =  datapartner || [];
+
+let dataarray =  [];
 
 if(data.productId){
-     dataarray.push("ProductId", data.productId);}
-
+        dataarray.ProductId= data.productId;}
 if(data.productprice){
-       dataarray.push("Amount", data.productPrice);}
-
+        dataarray.Amount= data.productPrice;}
 if(data.productCategoryList){
-       dataarray.push("ProductCategoryList", data.productCategoryList);}
-
+        dataarray.ProductCategoryList= data.productCategoryList;}
 if(data.orderId){
-       dataarray.push("OrderId", data.orderId);}
-
+       dataarray.OrderId= data.orderId;}
 if(data.amount){
-       dataarray.push("Amount", data.amount);}
-
+       dataarray.Amount=data.amount;}
 if(data.currency){
-       dataarray.push("Currency", data.currency);}
-
+       dataarray.Currency= data.currency;}
 if(data.gdpr){
-       dataarray.push("gdpr", data.gdpr);}
-
+       dataarray.gdpr = data.gdpr;}
 if(data.gdpr_consent){
-       dataarray.push("gdpr_consent", data.gdpr_consent);}
-
+       dataarray.gdpr_consent= data.gdpr_consent;}
 if(data.gdpr_pd){
-       dataarray.push("gdpr_pd", data.gdpr_pd);}
-
+       dataarray.gdpr_pd= data.gdpr_pd;}
 if(data.us_privacy){
-       dataarray.push("us_privacy", data.us_privacy);}
+       dataarray.us_privacy= data.us_privacy;}
+
+if(data.pageType){
+       dataarray.PageType= data.pageType;}
+else{
+       dataarray.PageType =  "Generic";}
 
 
   
@@ -517,7 +514,7 @@ ___WEB_PERMISSIONS___
                 "mapValue": [
                   {
                     "type": 1,
-                    "string": "data_0001"
+                    "string": "rtgsettings"
                   },
                   {
                     "type": 8,
