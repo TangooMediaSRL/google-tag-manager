@@ -203,7 +203,7 @@ ___TEMPLATE_PARAMETERS___
         "type": "EQUALS"
       },
       {
-        "paramName": "pagetype",
+        "paramName": "pageType",
         "paramValue": "Checkout",
         "type": "EQUALS"
       },
